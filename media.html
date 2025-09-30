@@ -6,16 +6,24 @@
         <meta name="description" content="Media showing the Supercars." />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="canonical" href="https://example.com/" />
+        <link rel="stylesheet" href="stylesm.css">
     </head>
     <body>
+        <header>
+            <ul>
+                <li><a href="index.html"></a></li>
+                <li><a href="about.html">Media</a></li>
+                <li><a href="extras.html">Extras</a></li>
+            </ul>
+        </header>
         <section>
             <figure>
                 <picture>
                     <source srcset="assets/gt40.jpg" media="(min-width: 800px)">
                     <source srcset="assets/gt40.jpg" media="(min-width: 500px)">
                     <img src="assets/gt40.jpg" alt="Ford GT40">
-                    <figcaption>Ford GT40</figcaption>
                 </picture>
+                <figcaption>Ford GT40</figcaption>
             </figure>
         </section>
 
@@ -25,8 +33,8 @@
                     <source srcset="assets/f40.jpg" media="(min-width: 800px)">
                     <source srcset="assets/f40.jpg" media="(min-width: 500px)">
                     <img src="assets/f40.jpg" alt="Ferrari F40">
-                    <figcaption>Ferrari F40</figcaption>
                 </picture>
+                <figcaption>Ferrari F40</figcaption>
             </figure>
         </section>
 
@@ -36,8 +44,8 @@
                     <source srcset="assets/bugatti.jpg" media="(min-width: 800px)">
                     <source srcset="assets/bugatti.jpg" media="(min-width: 500px)">
                     <img src="assets/bugatti.jpg" alt="Bugatti Veyron">
-                    <figcaption>Bugatti Veyron</figcaption>
                 </picture>
+                <figcaption>Bugatti Veyron</figcaption>  
             </figure>
         </section>
 
@@ -52,7 +60,7 @@
         <section>
             <h4>Ferrari LaFerrari in Action</h4>
             <video controls width="640" poster="assets/laferrari.jpg">
-                <source src="assets/Ferrari LaFerrari acceleration sound in Palm Beach Florida .mp4" type="video/mp4">
+                <source src="assets/Ferrari LaFerrari acceleration sound in Palm Beach Florida.mp4" type="video/mp4">
                 <track src="assets/sample.vtt" kind="captions" srclang="en" label="English" default>
                 Sorry your browser does not support embedded videos. 
             </video>
